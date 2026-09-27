@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS List</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+        }
+
+        /* 1. list-style-type */
+        ul.circle {
+            list-style-type: circle;
+        }
+
+        ul.square {
+            list-style-type: square;
+        }
+
+        ol.roman {
+            list-style-type: upper-roman;
+        }
+
+        ol.alpha {
+            list-style-type: lower-alpha;
+        }
+
+        ul.none {
+            list-style-type: none;
+        }
+
+        /* 3. list-style-position */
+        ul.out {
+            list-style-position: outside;
+            width: 250px;
+            border: 1px solid #ccc;
+        }
+
+        ul.in {
+            list-style-position: inside;
+            width: 250px;
+            border: 1px solid #ccc;
+        }
+
+        /* 4. list-style viết gộp */
+        ul.short {
+            list-style: square inside;
+        }
+
+        /* 5. Màu sắc */
+        ol.color {
+            background: #ff9999;
+            padding: 20px;
+        }
+
+        ol.color li {
+            background: #ffe5e5;
+            padding: 5px;
+            margin-left: 35px;
+        }
+
+        ul.color {
+            background: #3399ff;
+            padding: 20px;
+        }
+
+        ul.color li {
+            background: #cce5ff;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>1. list-style-type</h2>
+    <p>circle:</p>
+    <ul class="circle">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ul>
+    <p>square:</p>
+    <ul class="square">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ul>
+    <p>upper-roman:</p>
+    <ol class="roman">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ol>
+    <p>lower-alpha:</p>
+    <ol class="alpha">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ol>
+    <p>none:</p>
+    <ul class="none">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ul>
+
+    <h2>3. list-style-position</h2>
+    <p>outside:</p>
+    <ul class="out">
+        <li>Cà phê - một loại đồ uống được pha từ hạt cà phê rang xay</li>
+        <li>Trà - đồ uống phổ biến ở châu Á</li>
+    </ul>
+    <p>inside:</p>
+    <ul class="in">
+        <li>Cà phê - một loại đồ uống được pha từ hạt cà phê rang xay</li>
+        <li>Trà - đồ uống phổ biến ở châu Á</li>
+    </ul>
+
+    <h2>4. list-style viết gộp</h2>
+    <ul class="short">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ul>
+
+    <h2>5. Danh sách có màu</h2>
+    <ol class="color">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ol>
+    <ul class="color">
+        <li>Cà phê</li>
+        <li>Trà</li>
+        <li>Sữa</li>
+    </ul>
+</body>
+
+</html>
